@@ -7,7 +7,7 @@
     "outDir": "build",
     "rootDir": "./",
     "strict": true,
-    // "types":["node", "jest"], 
+    "types":["node", "jest"], 
     "noImplicitAny": true,
     "strictPropertyInitialization": false,
     "baseUrl": "./",
@@ -31,7 +31,6 @@
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-  },
-  "include": ["./src/**/*.ts"]
+    "forceConsistentCasingInFileNames": true
+  }
 }

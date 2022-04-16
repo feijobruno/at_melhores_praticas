@@ -1,9 +1,9 @@
 import 'reflect-metadata';
-import '@types/jest';
 import CreateUserService from './CreateUserService';
 import FakeUsersRepository from '@modules/users/domain/repositories/fakes/FakeUsersRepository';
 import AppError from '@shared/errors/AppError';
 import FakeHashProvider from '../providers/HashProvider/fakes/FakeHashProvider';
+
 
 let fakeUsersRepository: FakeUsersRepository;
 let createUser: CreateUserService;

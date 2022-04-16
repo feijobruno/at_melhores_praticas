@@ -7,6 +7,8 @@ import { compilerOptions } from './tsconfig.json';
  */
 
 export default {
+
+ 
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
@@ -147,9 +149,7 @@ export default {
 
   // The glob patterns Jest uses to detect test files
   // testMatch: ['/*.spec.ts'],
-  testMatch: ['./src/modules/users/serices/*.specs.ts'],
-
-  
+  testMatch: ['**/*.spec.ts'],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   // testPathIgnorePatterns: [
